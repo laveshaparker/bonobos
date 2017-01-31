@@ -1,28 +1,23 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Build Instructions
 
-Things you may want to cover:
+- Install the appropriate package of Ruby and Rails at http://railsinstaller.org/en for your computer
+- Open a terminal/console/command prompt and clone the source repository with "git clone https://github.com/catkeck/bonobos/"
+- Use the console to enter the directory which you cloned the repository to
+- Enter "rails s" into your console
+- Go to this link: http://localhost:3000/bonobos.html
 
-* Ruby version
+== Approach
 
-* System dependencies
+- I created an inventory and products model, with attributes matching the columns of the inventory and product csv files
+- I pulled data from the inventory and product csv files to create instances of the inventory and product models
+- I created a json API from my two models within the Products Controller
+- I created a public file, bonobos.html which used javascript (jquery) to fetch the data from my controller
+- I utilized javascript and css to format my data
 
-* Configuration
+== Potential Improvements
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+- A feature where people could search on the page for a specific product or through the inventory
+- A feature where people can update the inventory
+- A feature where people can sort the inventory, e.g. alphabetically by name, numerically by # of items, etc.
