@@ -3,10 +3,16 @@
 == Build Instructions
 
 - Install the appropriate package of Ruby and Rails at http://railsinstaller.org/en for your computer
-- Open a terminal/console/command prompt and clone the source repository: "git clone https://github.com/catkeck/bonobos/"
+- Open a terminal/console/command prompt and clone the source repository: 
+  ```
+  git clone https://github.com/catkeck/bonobos.git
+  ```
 - Use the console to enter the directory the repository was cloned to
 - Enter "rails server" into your console
-- Go to this link: http://localhost:3000/bonobos.html
+- Go to this link: 
+  ```
+  http://localhost:3000/bonobos.html
+  ```
 
 == Approach
 
